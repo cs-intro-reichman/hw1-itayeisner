@@ -18,6 +18,10 @@ public class TimeFormat {
 		{
 			System.out.print( hours + ":" + args[0].charAt(3) + args[0].charAt(4) + " AM");	
 		}
+		else if (hours == 12)
+		{
+			System.out.print( hours + ":" + args[0].charAt(3) + args[0].charAt(4) + " PM");
+		}
 		else {
 			System.out.print( late2early + ":" + args[0].charAt(3) + args[0].charAt(4) + " PM");
 		} 
