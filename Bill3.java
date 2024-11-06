@@ -12,7 +12,7 @@ public class Bill3 {
 		double each = (samount)/3.0;
 		   double ans = Math.ceil(each);
 		
-		 System.out.print("Dear " + name3 + ", " + name2 + ", and " + name1  + ": Pay " + ans + " Shekels each.");
+		 System.out.print("Dear " + name3 + ", " + name2 + ", and " + name1  + ": pay " + ans + " Shekels each.");
 	
 		}
 	}
