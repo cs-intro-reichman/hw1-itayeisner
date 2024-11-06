@@ -10,7 +10,7 @@ public class Bill3 {
 
 		// calc the payment per person + ciel up
 		double each = (samount)/3.0;
-		   double ans = Math.ceil( each );
+		   double ans = Math.ceil(each);
 		
 		 System.out.print("Dear " + name3 + ", " + name2 + ", and " + name1  + ": Pay " + ans + " Shekels each.");
 	
