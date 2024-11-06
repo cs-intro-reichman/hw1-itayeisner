@@ -7,12 +7,12 @@ public class Bill3 {
 	   String name2 = args[1];
 	   String name3 = args[2];
 		int samount = Integer.parseInt(args[3]);
-		
+
 		// calc the payment per person + ciel up
 		double each = (samount)/3.0;
 		   double ans = Math.ceil( each );
 		
-		 System.out.print("Dear " + name1 + ", " + name2 + ", " + name3  + ": Pay " + ans + " Shekels each");
+		 System.out.print("Dear " + name3 + ", " + name2 + ", and " + name1  + ": Pay " + ans + " Shekels each.");
 	
 		}
 	}
