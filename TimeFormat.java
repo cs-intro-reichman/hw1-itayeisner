@@ -10,20 +10,20 @@ public class TimeFormat {
 		// It then concatenates the resulting string with the rightmost hour-digit,
 		// and then uses parseInt to cast the resulting string as an int.
 		int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
-		// Does the same with the minutes part of the input.
-		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
-        // Replace this comment with the rest of your code
+		// define str with the minutes part of the input.
+		String minutes = ("" + args[0].charAt(3) + args[0].charAt(4));
+        // print the  hour on 12 hour format
 		int late2early = hours-12;
 		if (hours<12)
 		{
-			System.out.print( hours + ":" + args[0].charAt(3) + args[0].charAt(4) + " AM");	
+			System.out.print( hours + ":" + minutes + " AM");	
 		}
 		else if (hours == 12)
 		{
-			System.out.print( hours + ":" + args[0].charAt(3) + args[0].charAt(4) + " PM");
+			System.out.print( hours + ":" + minutes + " PM");
 		}
 		else {
-			System.out.print( late2early + ":" + args[0].charAt(3) + args[0].charAt(4) + " PM");
+			System.out.print( late2early + ":" + minutes + " PM");
 		} 
 	}
 }
